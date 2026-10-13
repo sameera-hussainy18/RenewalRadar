@@ -2,6 +2,10 @@
 
 A simple Android app that tracks your subscriptions (Spotify, iCloud, gym, campus bills…) and shows how much you'll pay this month.
 
+**▶ Try it in your browser (no install):** https://appetize.io/app/b_3fwl7hiadd5z6tccyuzst532m4
+
+**📱 Download the APK:** https://github.com/sameera-hussainy18/RenewalRadar/releases/latest/download/RenewalRadar.apk
+
 Built with **Java + XML layouts + Room** for Android Studio Chipmunk (AGP 7.2.1, Gradle 7.3.3, compileSdk 32, minSdk 24).
 
 ## Features
