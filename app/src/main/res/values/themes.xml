@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- NoActionBar because each screen has its own MaterialToolbar -->
+    <style name="Theme.RenewalRadar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryVariant">@color/brand_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Hides the big title while the toolbar is expanded (the card shows the total instead) -->
+    <style name="TextAppearance.RenewalRadar.ExpandedTitle" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+</resources>
