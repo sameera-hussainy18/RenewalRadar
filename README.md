@@ -31,3 +31,10 @@ All Java code is in `app/src/main/java/com/example/renewalradar/`:
 | `RecurrenceEngine` | Next due dates and monthly total |
 | `MainActivity`, `SubscriptionAdapter` | Home screen and list |
 | `AddEditActivity` | Add / edit form |
+
+## Download the app (APK)
+Every push to `main` builds the app automatically (see `.github/workflows/build-apk.yml`).
+
+**Latest APK:** https://github.com/sameera-hussainy18/RenewalRadar/releases/latest/download/RenewalRadar.apk
+
+To install it, open the link on your Android phone, tap the downloaded file, and allow **Install unknown apps** when asked.
